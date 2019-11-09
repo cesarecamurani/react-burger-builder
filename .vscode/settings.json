@@ -1,0 +1,6 @@
+{
+  "editor.fontFamily": "Fira code",
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Nord",
+  "workbench.fontAliasing": "antialiased"
+}

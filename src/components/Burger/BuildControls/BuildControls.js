@@ -1,6 +1,6 @@
 import React from 'react'
+import classes from './BuildControls.css';
 import BuildController from './BuildController/BuildController'
-import { classes } from 'istanbul-lib-coverage';
 
 const controls = [
   { label: 'Meat', type: 'meat' },
@@ -10,7 +10,7 @@ const controls = [
 ]
 
 const buildControls = (props) => (
-  <div className={classes.BuildController}>
+  <div className={classes.BuildControls}>
     {controls.map(ctrl => (
       <BuildController key={ctrl.label} label={ctrl.label} />
     ))}

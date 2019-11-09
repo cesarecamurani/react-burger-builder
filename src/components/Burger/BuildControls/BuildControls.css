@@ -1,10 +1,12 @@
 .BuildControls {
   width: 100%;
-  background-color: darkslategray;
+  background-color: brown;
   display: flex;
   flex-flow: column;
   align-items: center;
-  box-shadow: 0 2px 1px darkolivegreen;
+  box-shadow: 0 2px 1px grey;
   margin: auto;
   padding: 10px 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
 }
