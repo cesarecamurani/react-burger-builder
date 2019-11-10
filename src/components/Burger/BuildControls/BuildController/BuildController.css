@@ -17,15 +17,15 @@
 }
 
 .BuildController button:disabled {
-  background-color: yellow;
+  background-color: dimgray;
   border: 1px solid #7E7365;
-  color: #ccc;
+  color: aliceblue;
   cursor: default;
 }
 
 .BuildController button:hover:disabled {
-  background-color: yellow;
-  color: #ccc;
+  background-color: dimgray;
+  color: aliceblue;
   cursor: not-allowed;
 }
 
@@ -48,11 +48,11 @@
 }
 
 .BuildController .Less:hover, .BuildController .Less:active {  
-  background-color: green;
+  background-color: orange;
   color: white;
 }
 
 .BuildController .More:hover,.BuildController .More:active {
-  background-color: green;
+  background-color: orange;
   color: white;
 }

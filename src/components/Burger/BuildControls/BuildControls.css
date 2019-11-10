@@ -10,3 +10,49 @@
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
 }
+
+.BuildControls p {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.OrderButton {
+  background-color: gold;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid brown;
+  color: brown;
+  font-family: inherit;
+  font-size: 1.2em;
+  padding: 15px 30px;
+  box-shadow: 2px 2px 2px brown;
+}
+
+.OrderButton:hover, .OrderButton:active {
+  background-color: orange;
+  border: 1px solid gray;
+  color: white;
+}
+
+.OrderButton:disabled {
+  background-color: dimgray;
+  cursor: not-allowed;
+  border: 1px solid aliceblue;
+  color: aliceblue;
+}
+
+.OrderButton:not(:disabled) {
+  animation: enable 0.3s linear;
+}
+
+@keyframes enable {
+  0% {
+      transform: scale(1);
+  }
+  60% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
