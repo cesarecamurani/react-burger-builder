@@ -14,7 +14,6 @@
     "babel-preset-react-app": "^9.1.0",
     "camelcase": "^5.3.1",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
-    "css-loader": "3.3.1",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
     "eslint": "^6.7.2",
@@ -56,7 +55,6 @@
     "ts-pnp": "1.1.5",
     "typescript": "^3.7.3",
     "url-loader": "3.0.0",
-    "webpack": "4.41.2",
     "webpack-dev-server": "3.9.0",
     "webpack-manifest-plugin": "2.2.0",
     "workbox-webpack-plugin": "4.3.1"
@@ -133,5 +131,10 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "3.0.0": "^3.0.0",
+    "css-loader": "^2.1.1",
+    "webpack": "^4.41.2"
   }
 }

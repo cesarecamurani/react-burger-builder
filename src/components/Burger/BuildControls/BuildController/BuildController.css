@@ -38,21 +38,21 @@
 }
 
 .BuildController .Less {  
-  background-color: gold;
-  color: brown;
+  background-color: brown;
+  color: white;
 }
 
 .BuildController .More {
+  background-color: brown;
+  color: white;
+}
+
+.BuildController .Less:hover, .BuildController .Less:active {  
   background-color: gold;
   color: brown;
 }
 
-.BuildController .Less:hover, .BuildController .Less:active {  
-  background-color: orange;
-  color: white;
-}
-
 .BuildController .More:hover,.BuildController .More:active {
-  background-color: orange;
-  color: white;
+  background-color: gold;
+  color: brown;
 }
