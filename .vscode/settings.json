@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "Fira code",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "workbench.colorTheme": "Nord",
   "workbench.fontAliasing": "antialiased"
